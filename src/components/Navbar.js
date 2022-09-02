@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { isMobile } from "react-device-detect";
 
 export default function Navbar() {
   const [messageCount, setMessageCount] = useState(

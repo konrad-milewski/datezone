@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components";
+
 const Button = styled.a`
   background: transparent;
   border-radius: 3px;
   border: 2px solid palevioletred;
   color: palevioletred;
   padding: 0.25em 1em;
-
   &:hover {
     color: white;
   }
@@ -29,6 +29,7 @@ const Image = styled.img`
     height: 300px;
   }
 `;
+
 export default function Container() {
   const [image, setImage] = useState(false);
 
