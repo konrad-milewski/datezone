@@ -45,10 +45,8 @@ body {
 
 .sidebar {
   width: 15% !important;
-  
   background-color: white;
   margin-top: 100px;
-
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -89,26 +87,26 @@ a {
   color: black;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-@media (max-width:768px){
-  .sidebar{
+@media (max-width:768px) {
+  .sidebar {
     display: none;
   }
 
-  .main-container{
+  .main-container {
     width: 100%;
     margin-left: 0px;
   }
 
-  .logo{
+  .logo {
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     display: flex;
   }
 }
